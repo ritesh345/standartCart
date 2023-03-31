@@ -1,0 +1,42 @@
+
+.container{
+    background-color: rgb(246, 214, 251);
+ }
+ 
+ img{
+     position: static;
+     width: 100%;
+ }
+ 
+ .card {
+     padding-left: 0%;
+     padding-right: 0%;
+     margin: 55px;
+     box-shadow: 50%;
+     
+ }
+ 
+ .card img {
+     position: static;
+     width: 250px;
+     height: 200px;
+   
+     transition: 0.3s ease-in-out;
+ }
+ 
+ .card img:hover {
+     transition: 0.3s ease-in-out;
+     transform: scale(1.1);
+ }
+ .btn{
+     color: rgb(0, 0, 0);
+     background-color: rgb(62, 170, 242);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

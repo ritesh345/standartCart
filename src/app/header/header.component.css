@@ -1,0 +1,62 @@
+.form-control {
+    border-radius: 3px;
+    width: 500px;
+    margin-left: 100px;
+    
+    
+}
+
+
+.container{
+    position: relative;
+    max-width: fit-content;
+    
+}
+
+.fa-search:before {
+    content: "\f002";
+    padding-right: 110%;
+}
+
+
+.navbar{
+    
+    background-color: #cd74f3;
+}
+@media screen and (min-width:780px) {
+    .navbar{
+        width: 100%;
+    }
+    .search-icon {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        color: rgb(43, 0, 255);
+        
+      
+    }
+}
+@media screen and (min-width:360px) and (max-width:780px) {
+    .navbar{
+        width: 100%;
+    }
+    .search-icon {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        color: rgb(43, 0, 255);
+      
+    }
+}
+@media screen and (max-width:360px) {
+    .navbar{
+        width: 100%;
+    }
+    .search-icon {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        color: rgb(43, 0, 255);
+      
+    }
+}
